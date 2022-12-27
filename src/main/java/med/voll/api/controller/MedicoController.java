@@ -30,7 +30,7 @@ public class MedicoController {
      * Use <strong>page</strong> to set the page (default is 0). Ex.: page=1<br>
      * Use <strong>sort</strong> to order the result (sort=fieldname). Ex.: sort=name<br>
      * Use <strong>,desc</strong> to do a desc sorting (default is asc). Ex.: sort=name,desc<br>
-     * You can ommit @PageableDefault but it can make the API
+     * You can ommit @PageableDefault but it can make the API loses performance
      * @param paginacao informações da paginação (size, page, sort)
      * @return Lista de dados dos médicos
      */
